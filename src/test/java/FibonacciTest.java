@@ -21,4 +21,13 @@ class FibonacciTest{
         //THEN
         assertEquals(1,actual);
     }
+    @Test
+    public void FibonacciTest_when3_then3(){
+        //GIVEN
+        int num = 3;
+        //WHEN
+        int actual = Fibonacci.fibonacci(num);
+        //THEN
+        assertEquals(3,actual);
+    }
 }
